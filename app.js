@@ -3,9 +3,10 @@ const app = express();
 const morgan = require("morgan");
 const { connectDb } = require("./db/dbConnect");
 const { homeRouter } = require("./router/home");
-const port = 8080;
+
 require("dotenv").config();
-const uri = process.env.MONGO_URI
+const uri = process.env.MONGO_URI;
+const port = process.env.PORT_NUM;
 
 //logger middleware
 app.use(morgan("tiny"));
