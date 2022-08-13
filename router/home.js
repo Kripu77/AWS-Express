@@ -8,7 +8,7 @@ const {handleHome, handleHomeClient} = require("../controllers/handleHome");
 homeRouter.get("", handleHome)
 
 
-//home client route
+//home client router
 
 homeRouter.get("/client", handleHomeClient);
 
