@@ -1,0 +1,26 @@
+{
+  "name": "aws-express",
+  "version": "1.0.0",
+  "description": "AWS and expressjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kripu77/AWS-Express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kripu77/AWS-Express/issues"
+  },
+  "homepage": "https://github.com/Kripu77/AWS-Express#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "morgan": "^1.10.0"
+  }
+}
